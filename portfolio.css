@@ -78,3 +78,75 @@ body {
 .hero__cta:hover {
     opacity: 0.85;
 }
+
+.projects {
+    padding: 96px 48px;
+}
+
+.projects__title {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 48px;
+    color: #d4af37;
+}
+
+.projects__grid {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.project__card {
+    background-color: #111111;
+    border: solid #222222;
+    border-radius: 8px;
+    padding: 32px;
+    flex: 1;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: border-color 0.3s;
+}
+
+.project__card:hover {
+    border-color: #d4af37;
+}
+
+.project-card__title {
+    font-size: 1.25rem;
+    font-weight: 700
+}
+
+.project-card__desc {
+    color: #aaaaaa;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.project-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-card__tags span {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    color: #d4af37;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.project-card__link {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s;
+    align-self: flex-start;
+}
+
+.project-card__link:hover {
+    color: #d4af37;
+}
