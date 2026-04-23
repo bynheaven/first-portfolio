@@ -91,9 +91,9 @@ body {
 }
 
 .projects__grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 32px;
-    flex-wrap: wrap;
 }
 
 .project__card {
@@ -101,8 +101,6 @@ body {
     border: solid #222222;
     border-radius: 8px;
     padding: 32px;
-    flex: 1;
-    max-width: 280px;
     display: flex;
     flex-direction: column;
     gap: 16px;
