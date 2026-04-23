@@ -135,12 +135,12 @@ body {
     font-size: 0.75rem;
     padding: 4px 10px;
     border-radius: 4px;
+    transition: color 0.3s;
 }
 
 .project-card__tags span:hover {
     background-color: #d4af37;
     color: #0a0a0a;
-    transition: all 0.3s;
 }
 
 .project-card__link {
