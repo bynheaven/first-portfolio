@@ -137,6 +137,11 @@ body {
     border-radius: 4px;
 }
 
+.project-card__tags span:hover {
+    background-color: #d4af37;
+    color: #0a0a0a;
+}
+
 .project-card__link {
     color: #ffffff;
     text-decoration: none;
