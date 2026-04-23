@@ -150,3 +150,31 @@ body {
 .project-card__link:hover {
     color: #d4af37;
 }
+
+.contact {
+    padding: 96px 48px;
+    border-top: 1px solid #222222;
+}
+
+.contact__title {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #d4af37;
+    margin-bottom: 16px;
+}
+
+.contact__text {
+    color: #aaaaaa;
+    margin-bottom: 24px;
+}
+
+.contact__link {
+    color: #d4af37;
+    text-decoration: none;
+    font-weight: 700;
+    transition: opacity 0.3s;
+}
+
+.contact__link:hover {
+    opacity: 0.7;
+}
