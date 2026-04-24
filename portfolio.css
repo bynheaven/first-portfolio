@@ -203,7 +203,7 @@ body {
 
     .hero {
         min-height: unset;
-        padding: 48px 24px;
+        padding: 48px 24px 32px;
     }
 
     .projects__grid {
