@@ -186,3 +186,24 @@ body {
 * {
     scroll-behavior: smooth;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .hero {
+        min-height: 60vh;
+        padding: 48px 24px;
+    }
+
+    .projects__grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 48px 24px;
+    }
+}
