@@ -190,12 +190,13 @@ body {
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
+        align-items: center;
         gap: 16px;
         padding: 16px;
     }
 
     .hero {
-        min-height: 60vh;
+        min-height: unset;
         padding: 48px 24px;
     }
 
