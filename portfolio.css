@@ -195,6 +195,39 @@ body {
     max-width: 500px;
 }
 
+.contact input,
+.contact textarea {
+    background: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #333333;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+    border-color: #d4af37;
+}
+
+.contact button {
+    background: #d4af37;
+    color: #0a0a0a;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.contact button:hover {
+    opacity: 0.85;
+}
+
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column;
